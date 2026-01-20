@@ -16,11 +16,89 @@
         }
         .hero {
             min-height: 100vh;
-            background: linear-grad(135deg, #ff4c68, #ff8fa3)
+            background: linear-grad
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 60%;
+        }
+          <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero {
+      min-height: 100vh;
+      background: #b50717,#ad3c69,#794980,#4d2b51,#372f53;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 10%;
+    }
+    .hero-content {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1200px;
+      gap: 60px;
+    }
+    .hero-text {
+      flex: 1;
+      color: #000;
+    }
+
+    .hero-text h1 {
+      font-size: 3rem;
+      font-weight: 900;
+      line-height: 1.2;
+      margin-bottom: 30px;
+    }
+    .buttons {
+      display: flex;
+      gap: 15px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 22px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      border: 2px solid transparent;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .btn-ios {
+      background: #fff;
+      color: #000;
+      border-color: #fff;
+    }
+    .btn-ios:hover {
+      background: transparent;
+      color: #fff;
+    }
+    .btn-android {
+      background: transparent;
+      color: #fff;
+      border-color: #fff;
+    }
+    .btn-android:hover {
+      background: #fff;
+      color: #000;
+    }
+    .hero-phone {
+      flex: 1
+}
     </style>
         <body>
     <main>
