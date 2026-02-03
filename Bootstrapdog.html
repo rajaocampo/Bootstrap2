@@ -10,10 +10,21 @@
     body {
       font-family: "Montserrat", sans-serif;
     }
-    #title {
-      background: linear-gradient(135deg, #ff4c68, #ff8fa3);
-      padding: 100px 0;
-    }
+     .gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+    height: 100px;
+}
     #title h1 {
       font-size: 3rem;
       font-weight: 800;
@@ -65,7 +76,7 @@
 </head>
 <body>
 <section id="title">
-  <div class="container">
+  <div class="gradient-background">
     <div class="row align-items-center">
       <div class="col-lg-6">
         <h1>Meet new and<br>interesting dogs<br>nearby.</h1>
